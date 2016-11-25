@@ -1,0 +1,8 @@
+{
+  "autoload": {
+    "files": ["src/David/David.php"]
+  },
+  "require": {
+      "silex/silex": "~1.3"
+  }
+}
