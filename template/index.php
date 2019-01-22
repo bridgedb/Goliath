@@ -106,13 +106,13 @@
                                                        </button>
 					     </div-->
 
-			                    <form id="idForm" role="form" action="assets/contact.php" method="post" style=Â"">
+			                    <form id="idForm" role="form" action="assets/contact.php" method="post" style=Ã‚"">
 			                        <div class="form-group col-md-12">
 			                            <label class="sr-only" for="contact-message">Id List</label>
 			                            <textarea name="idList"  class="contact-message form-control" placeholder="Paste your ID list" id="idlist"><?=$exampleSet?></textarea>
 
 						    <div class="row">
-                                                     <label class="col-md-4 control-label" for="selectbasic" style="color:white;">Specie</label>
+                                                     <label class="col-md-4 control-label" for="selectbasic" style="color:white;">Species</label>
                                                       <div class="col-md-8">
                                                       <select id="specie" name="specie" class="form-control">
                                                       <!--option id="specieauto" value="auto">Auto detect</option-->
