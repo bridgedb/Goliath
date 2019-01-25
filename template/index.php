@@ -77,11 +77,11 @@
                     <div class="row">
                         <div class="col-sm-8 col-sm-offset-2 text">
                             <h1><strong>Goliath</strong> ID Converter</h1>
-                            <div class="description">
+                            <div class="master description">
                             	<p>
 	                            	Please copy paste your ID list.<br/>
-	                            	The system will try to guess your id type. 
-					If it's not correct, please adjust accordingly.
+	                            	<!-- The system will try to guess your id type. 
+					If it's not correct, please adjust accordingly.-->
                             	</p>
                             </div>
                         </div>

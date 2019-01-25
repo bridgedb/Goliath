@@ -400,7 +400,7 @@ function convertBatchList($specie, $idTypeFrom, $idTypeTo, $idList){
 
 		//$specie = "Human";
 
-	 	$s = "webservice.bridgedb.org/batch/$specie/xrefs/$idTypeFrom?dataSource=".$idTypeTo;
+	 	$s = "webservice.bridgedb.org/$specie/xrefsBatch/$idTypeFrom?dataSource=".$idTypeTo;
 
 		$sidList = "";
 	        foreach($idList as $id)  $sidList .= $id . "\n";
@@ -420,7 +420,8 @@ function convertBatchList($specie, $idTypeFrom, $idTypeTo, $idList){
 
                		$r .= $id . "\t" . $type  . "\t" . $sConvertedList . "\n";
         	}
-
+		//error_log( "====". $s . "\t" . $result ); 
+		
 	        return trim($r);
 }
 

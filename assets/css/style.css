@@ -18,11 +18,17 @@ a, a:hover, a:focus {
 
 h1, h2 {
 	margin-top: 10px;
-	font-size: 38px;
+	font-size: 50px;
     font-weight: 100;
     color: #555;
     line-height: 50px;
+    text-shadow: 1px 1px black;
 }
+
+h1 strong {
+	font-weight: 140;
+}
+
 
 h3 {
 	font-size: 22px;
@@ -122,6 +128,13 @@ ul.navbar-nav {
 .top-content .description {
 	margin: 20px 0 10px 0;
 }
+
+.master{
+	font-size: 25px !important;
+	font-weight: 100px !important;
+	text-shadow: 1px 1px black;
+}
+
 
 .top-content .description p { opacity: 0.8; }
 
